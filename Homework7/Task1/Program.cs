@@ -18,7 +18,7 @@ double[,] Generate2DArray(int m, int n)
     {
         for (int j = 0; j < result.GetLength(1); j++)
         {
-            result[i, j] = new Random().NextDouble();
+            result[i, j] = new Random().NextDouble()*10; //Диапазон от 0 до 10
         }
     }
     return result;
