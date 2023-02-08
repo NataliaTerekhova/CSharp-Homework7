@@ -21,7 +21,7 @@ System.Console.WriteLine($"Позиции элемента: {i}, {j}");
 System.Console.WriteLine();
 if (CheckArrayElement(arr, i, j))
 {
-    System.Console.WriteLine($"Значение эелемента: {arr[i,j]}");
+    System.Console.WriteLine($"Значение эелемента: {arr[i, j]}");
 }
 else
 {
