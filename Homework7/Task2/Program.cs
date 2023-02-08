@@ -19,14 +19,13 @@ int i = new Random().Next(1, 15);
 int j = new Random().Next(1, 15);
 System.Console.WriteLine($"Позиции элемента: {i}, {j}");
 System.Console.WriteLine();
-CheckArrayElement(arr, i, j);
-if (false)
+if (CheckArrayElement(arr, i, j))
 {
-    System.Console.WriteLine("Такого элемента в массиве нет");
+    System.Console.WriteLine($"Значение эелемента: {arr[i,j]}");
 }
 else
 {
-    System.Console.WriteLine(arr[i, j]);
+    System.Console.WriteLine("Такого элемента в массиве нет");
 }
 
 
